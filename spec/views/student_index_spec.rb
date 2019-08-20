@@ -25,6 +25,6 @@ RSpec.describe "Student" do
     #     render :template => "students/index.html.erb"
     #     expect(rendered).to render_template(:partial => "student", locals: {student: Student.search('rob').first})
     #   end
-    end
+    # end
   end
 end
